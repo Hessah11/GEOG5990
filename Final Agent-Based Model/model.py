@@ -184,9 +184,12 @@ model_menu.add_command(label="Close window", command=root.destroy)
 tkinter.mainloop()     
 
 #
-# Code to write the values of the environment variable after completion
+# Code that was created to write the values of the environment variable after 
+# completion of the animation
 #
+"""
 f = open("out.txt", 'w')
 for row in environment:
     f.write(','.join(map(str, row)))
 f.close()
+"""
